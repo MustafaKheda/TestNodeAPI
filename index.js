@@ -1,5 +1,11 @@
-import { app } from "./app.js";
-import connectDB from "./db/index.js";
+import express from "express";
+import userRouter from "./routes/user.route.js";
+const app = express();
+import cors from "cors";
+
+app.use(express.json());
+app.use(cors());
+app.use("/api/v1/users", userRouter);
 
 app.get('/', (req, res) => {
   res.send('Hello, World!');
