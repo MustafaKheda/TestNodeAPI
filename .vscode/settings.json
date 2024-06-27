@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/57af14cb-32f0-408c-ad31-e3bbd096d36e/resourceGroups/KL-Login_group/providers/Microsoft.Web/sites/KL-Login",
+    "appService.deploySubpath": "."
+}
