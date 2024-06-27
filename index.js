@@ -9,13 +9,13 @@ app.listen(8000, () => {
   console.log("Server is running on port 8000");
 });
 
-connectDB()
-  .then(() => {
-    console.log("MongoDB connected");
-  })
-  .catch((err) => {
-    console.log(err, "MongoDB connection failed");
-  });
+// connectDB()
+//   .then(() => {
+//     console.log("MongoDB connected");
+//   })
+//   .catch((err) => {
+//     console.log(err, "MongoDB connection failed");
+//   });
 
 // const express = require('express');
 // const app = express();
